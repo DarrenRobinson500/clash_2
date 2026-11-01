@@ -1,0 +1,248 @@
+{
+  "images/nav/pycharm_tools.jpg": {
+    "images/nav/icon_toolbar.jpg.click": {
+      "home": 659,
+      "Builder Base": 289,
+      "Builder base panel": 6,
+      "images/nav/pycharm_tools.jpg": 150,
+      "Builder Attack": 4,
+      "builder_panel": 14,
+      "images/nav/attack/return_home_button.jpg": 21,
+      "images/nav/attack/attack_button.jpg": 3,
+      "images/nav/builder/choose_army.jpg": 1,
+      "images/nav/attack/find_a_match_button.jpg": 1,
+      "images/nav/attack/battle_button.jpg": 2,
+      "images/nav/home/donation_resource.jpg": 4,
+      "Chat": 1
+    }
+  },
+  "home": {
+    "images/nav/builder.jpg.click": {
+      "builder_panel": 3322,
+      "home": 126,
+      "images/nav/pycharm_tools.jpg": 6,
+      "Builder Base": 1
+    },
+    "images/nav/settings_button.jpg.click": {
+      "settings": 1837,
+      "home": 102,
+      "images/nav/pycharm_tools.jpg": 9
+    },
+    "images/nav/attack/army_button.jpg.click": {
+      "images/nav/attack/attack_button.jpg": 81,
+      "images/nav/attack/battle_button.jpg": 1541,
+      "home": 54,
+      "Chat": 1,
+      "images/nav/pycharm_tools.jpg": 1
+    },
+    "go_builder_base": {
+      "Builder Base": 1149,
+      "home": 96,
+      "images/nav/pycharm_tools.jpg": 3
+    },
+    "images/nav/home/chat.jpg.click": {
+      "Chat": 2825,
+      "home": 532,
+      "images/nav/pycharm_tools.jpg": 10
+    },
+    "go_to_challenge": {
+      "images/nav/challenge/challenges_tab.jpg": 78,
+      "home": 151,
+      "images/nav/pycharm_tools.jpg": 2,
+      "builder_panel": 15
+    }
+  },
+  "builder_panel": {
+    "images/nav/builder.jpg.click": {
+      "home": 2182,
+      "images/nav/pycharm_tools.jpg": 1,
+      "builder_panel": 1
+    },
+    "images/nav/settings_button.jpg.click": {
+      "settings": 375,
+      "images/nav/pycharm_tools.jpg": 1,
+      "home": 17,
+      "Builder Base": 1
+    },
+    "images/nav/attack/army_button.jpg.click": {
+      "images/nav/attack/battle_button.jpg": 128,
+      "images/nav/attack/attack_button.jpg": 1,
+      "builder_panel": 13
+    },
+    "go_builder_base": {
+      "home": 56,
+      "Builder Base": 8,
+      "images/nav/pycharm_tools.jpg": 1
+    },
+    "images/nav/home/chat.jpg.click": {
+      "builder_panel": 10
+    }
+  },
+  "Chat": {
+    "images/nav/home/chat_close.jpg.click": {
+      "home": 2813,
+      "Chat": 14,
+      "images/nav/pycharm_tools.jpg": 1
+    },
+    "images/nav/settings_button.jpg.click": {
+      "settings": 10,
+      "Chat": 27
+    }
+  },
+  "images/nav/home/chat_groups.jpg": {
+    "images/nav/home/chat_groups_exit.jpg.click": {
+      "Chat": 5,
+      "home": 2
+    }
+  },
+  "images/nav/home/donation_resource.jpg": {
+    "images/nav/home/donate.jpg.click": {
+      "Chat": 4
+    }
+  },
+  "images/nav/challenge/challenges_tab.jpg": {
+    "images/nav/challenge/challenge_cross.jpg.click": {
+      "home": 69
+    }
+  },
+  "settings": {
+    "images/nav/switch_accounts_button.jpg.click": {
+      "images/nav/switch_accounts.jpg": 2467
+    },
+    "images/nav/change_account/close_settings.jpg.click": {
+      "home": 392,
+      "Builder Base": 263
+    }
+  },
+  "images/nav/switch_accounts.jpg": {
+    "press_esc": {
+      "images/nav/switch_accounts.jpg": 9,
+      "home": 3
+    },
+    "images/nav/settings.jpg.click": {
+      "settings": 252
+    }
+  },
+  "images/nav/attack/attack_button.jpg": {
+    "images/nav/attack/attack_button.jpg.click": {
+      "images/nav/attack/next_button.jpg": 1429,
+      "images/nav/pycharm_tools.jpg": 2,
+      "images/nav/attack/attack_button.jpg": 1,
+      "home": 11
+    },
+    "press_esc": {
+      "home": 3
+    },
+    "images/nav/attack/close_army.jpg.click": {
+      "home": 283,
+      "Builder Base": 1,
+      "images/nav/pycharm_tools.jpg": 2
+    }
+  },
+  "images/nav/attack/battle_button.jpg": {
+    "images/nav/attack/battle_button.jpg.click": {
+      "images/nav/attack/find_a_match_button.jpg": 1658,
+      "home": 6
+    },
+    "press_esc": {
+      "images/nav/attack/battle_button.jpg": 185,
+      "home": 3,
+      "Builder Base": 2
+    },
+    "images/nav/attack/close_army.jpg.click": {
+      "home": 2
+    }
+  },
+  "images/nav/attack/next_button.jpg": {
+    "images/nav/attack/end_battle.jpg.click": {
+      "home": 85,
+      "Builder Base": 1
+    }
+  },
+  "images/nav/attack/return_home_button.jpg": {
+    "images/nav/attack/return_home_button.jpg.click": {
+      "home": 115,
+      "images/nav/pycharm_tools.jpg": 5
+    }
+  },
+  "images/nav/attack/find_a_match_button.jpg": {
+    "images/nav/attack/find_a_match_button.jpg.click": {
+      "images/nav/attack/attack_button.jpg": 1656,
+      "images/nav/pycharm_tools.jpg": 3
+    }
+  },
+  "Builder Base": {
+    "go_to_main": {
+      "home": 1119,
+      "Builder Base": 69,
+      "images/nav/pycharm_tools.jpg": 8,
+      "Builder find now": 1
+    },
+    "images/nav/builder/builder_attack_button.jpg.click": {
+      "Builder find now": 1994,
+      "Builder Base": 81,
+      "images/nav/pycharm_tools.jpg": 2,
+      "home": 2,
+      "images/nav/builder/choose_army.jpg": 1
+    },
+    "images/nav/builder/master_builder.jpg.click": {
+      "builder_base_panel": 1,
+      "Builder base panel": 945,
+      "Builder Base": 4,
+      "home": 1
+    },
+    "images/nav/settings_button.jpg.click": {
+      "settings": 311,
+      "images/nav/pycharm_tools.jpg": 2,
+      "home": 2,
+      "Builder Base": 4
+    },
+    "images/nav/builder/builder_choose_army_button.jpg.click": {
+      "images/nav/builder/choose_army.jpg": 47,
+      "Builder Base": 12
+    }
+  },
+  "Builder base panel": {
+    "images/nav/builder/master_builder.jpg.click": {
+      "Builder Base": 597,
+      "images/nav/pycharm_tools.jpg": 1,
+      "home": 1,
+      "Builder base panel": 4
+    },
+    "images/nav/settings_button.jpg.click": {
+      "settings": 350,
+      "Builder Base": 1,
+      "Builder base panel": 2,
+      "images/nav/pycharm_tools.jpg": 1
+    }
+  },
+  "Builder find now": {
+    "images/nav/builder/builder_find_now_button.jpg.click": {
+      "Builder Attack": 1978,
+      "Builder Base": 9,
+      "Builder find now": 13,
+      "images/nav/pycharm_tools.jpg": 6
+    }
+  },
+  "Builder Attack": {
+    "images/nav/attack/return_home_button.jpg.click": {
+      "Builder Base": 6,
+      "Builder Attack": 16,
+      "images/nav/pycharm_tools.jpg": 1
+    },
+    "images/nav/attack/end_battle.jpg.click": {
+      "images/nav/pycharm_tools.jpg": 1
+    },
+    "exit_builder_attack": {
+      "Builder Base": 548,
+      "Builder Attack": 260,
+      "images/nav/pycharm_tools.jpg": 4,
+      "home": 4
+    }
+  },
+  "images/nav/builder/choose_army.jpg": {
+    "images/nav/builder/choose_army_cross.jpg.click": {
+      "Builder Base": 41
+    }
+  }
+}
