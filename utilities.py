@@ -86,7 +86,7 @@ def wait(minutes, show_dur=True):
     while datetime.now() < end:
         m = (datetime.now() - start).seconds
         if show_dur:
-            sys.stdout.write(f"\rWaiting {m/60:.1f} minutes of {minutes} minutes")
+            sys.stdout.write(f"\rWaiting {m/60:.1f} / {minutes} minutes ({m/60/minutes:.0%})")
             sys.stdout.flush()
         time.sleep(10)
 

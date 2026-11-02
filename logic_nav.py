@@ -198,6 +198,32 @@ def sort_locs():
     Locs.sort(key=lambda loc: (loc.order is None, loc.order or 0))
     return Locs
 
+def _adjacent(a, b):
+    return any(b in action.dests for action in a.actions) or any(a in action.dests for action in b.actions)
+
+def _disambiguate(found, expected):
+    # Locs that share the same images (e.g. build_panel / build_panel_1) look
+    # identical on screen, so the first one in Locs would always win. Prefer the
+    # twin that is the expected loc or one step away from it.
+    twins = [l for l in Locs if len(l.images) == len(found.images)
+             and all(a is b for a, b in zip(l.images, found.images))]
+    if len(twins) < 2 or expected is None:
+        return found
+    for twin in twins:
+        if twin is expected:
+            return twin
+    for twin in twins:
+        if _adjacent(twin, expected):
+            return twin
+    return found
+
+def wait_for(loc, timeout=2.0, interval=0.2):
+    end = time.time() + timeout
+    while time.time() < end:
+        if loc.find(): return True
+        time.sleep(interval)
+    return False
+
 def current_loc():
     global _current_loc
     if _current_loc and _current_loc.find():
@@ -211,6 +237,7 @@ def current_loc():
     while True:
         for loc in Locs:
             if loc.find():
+                loc = _disambiguate(loc, _current_loc)
                 # print(f"Current loc (expected {_current_loc} got {loc})")
                 _current_loc = loc
                 return loc
@@ -237,5 +264,6 @@ def go(dest):
         action[0]()
         _current_loc = action[0].dests[0]
         time.sleep(0.3)
+        wait_for(_current_loc)
         current = current_loc()
 

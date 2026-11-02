@@ -20,7 +20,7 @@ daz.dark_max = [200000, 0]
 
 sinner.gold_max = [22500000, 6500000]
 sinner.elixir_max = [23000000, 6500000]
-sinner.dark_max = [370000, 0]
+sinner.dark_max = [400000, 0]
 
 # ragnar.build_type = 1
 

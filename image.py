@@ -67,7 +67,7 @@ build_image = Image('images/nav/build_panel/build_image.jpg')
 build_panel_close = Image('images/nav/build_panel/build_panel_close.jpg')
 buildings_and_heroes = Image('images/nav/build_panel/buildings_and_heroes.jpg')
 army_upgrades = Image('images/nav/build_panel/army_upgrades.jpg')
-lab_icon = Image('images/nav/build_panel/lab_icon.jpg')
+lab_icon = Image(['images/nav/build_panel/lab_icon.jpg', 'images/nav/build_panel/lab_icon_b.jpg'])
 lab_icon_1 = Image('images/nav/build_panel/lab_icon_1.jpg')
 
 # Settings

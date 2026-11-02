@@ -28,6 +28,6 @@ def create_number(filename, x):
         cv2.waitKey(6000)
         cv2.destroyAllWindows()
 
-filename = "6"
+# filename = "5"
 # get_gold(3, filename)
-create_number(filename, 112)
+# create_number(filename, 112)

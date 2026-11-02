@@ -166,7 +166,7 @@ def main_loop():
                 tidy()
                 tidied = True
             else:
-                wait(30)
+                wait(10)
         status_cycle()
 
 
@@ -175,8 +175,15 @@ heroes = ["king", "queen", "minion", "warden", "champ", "duke"]
 # ragnar.walls = True
 sinner.walls = True
 
-for x in [ragnar, daz]:
+for x in [ragnar, daz, sinner]:
     x.set_build_list(heroes)
 
 main_loop()
 # status_cycle(collect_resources=False)
+
+# mouse_tracker()
+
+# account = sinner
+# account.read_resources(0)
+# print(account.status_line(0))
+# print(account.resource_string_2(0))
